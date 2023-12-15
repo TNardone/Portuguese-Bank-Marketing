@@ -6,7 +6,7 @@ Data source: https://archive.ics.uci.edu/dataset/222/bank+marketing
 ### Note
 There are 6 datasets needed to run the process_notebook. There are 4 within the “raw” folder for the data exploration/preparation phase, and 2 within the “clean” folder that are needed for the machine learning portion of the analysis.
 
-###Abstract
+### Abstract
 This project examined and analyzed data from a Portuguese bank marketing campaign related to term deposit accounts. The data is publicly available and was obtained from the UC Irvine Machine Learning Repository.
 The primary goal of this project was to use machine learning for the classification task of predicting whether or not someone will sign up for this banking product. To the business – a hypothetical bank in this example – this would provide valuable information as well as actionable outcomes such as which groups to target for their products in order to maximize the number of people signing up.
 As preparation for the classification task, the data went through various munging and preparation steps, such as ensuring the data was in a usable format (making sure all columns are formatted to the correct data type), sampling to ensure a balanced distribution of the target column, removing outliers, encoding categorical columns, and scaling the features to have 0 mean and standard deviation of 1.
